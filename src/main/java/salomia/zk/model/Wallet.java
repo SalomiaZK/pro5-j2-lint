@@ -22,7 +22,7 @@ public class Wallet {
         return getMoney();
     }
 
-    public ArrayList<Money> add_Vola(ArrayList<Money> money) {
+    public ArrayList<Money> addVola(ArrayList<Money> money) {
         this.money.addAll(money);
         return  this.money;
     }
